@@ -59,7 +59,12 @@ public class Consumable : InventoryItem
         }
         else if (primaryEffect == PrimaryEffect.Health)
         {
-            // Could also do a check here for if the player is at max health
+            /* Could do a check here for if the player is not at max health
+            if ()
+            {
+
+            }
+            */
             if (isPrimaryEffectAlwaysApplied || isSecondEffectAlwaysApplied)
             {
                 powerupManager.Add(powerup);
@@ -72,6 +77,12 @@ public class Consumable : InventoryItem
         }
         else if (primaryEffect == PrimaryEffect.Hunger)
         {
+            /* Could do a check here for if the player is not at max hunger
+            if ()
+            {
+
+            }
+            */
             if (isPrimaryEffectAlwaysApplied || isSecondEffectAlwaysApplied)
             {
                 powerupManager.Add(powerup);
@@ -84,6 +95,12 @@ public class Consumable : InventoryItem
         }
         else if (primaryEffect == PrimaryEffect.Thirst)
         {
+            /* Could do a check here for if the player is not at max thirst
+            if ()
+            {
+
+            }
+            */
             if (isPrimaryEffectAlwaysApplied || isSecondEffectAlwaysApplied)
             {
                 powerupManager.Add(powerup);
@@ -96,6 +113,12 @@ public class Consumable : InventoryItem
         }
         else if (primaryEffect == PrimaryEffect.Stamina)
         {
+            /* Could do a check here for if the player is not at max stamina
+            if ()
+            {
+
+            }
+            */
             if (isPrimaryEffectAlwaysApplied || isSecondEffectAlwaysApplied)
             {
                 powerupManager.Add(powerup);
